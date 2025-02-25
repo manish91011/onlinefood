@@ -5,10 +5,10 @@ function Card() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
       {/* Card Data */}
       {[
-        { name: 'Chowmein', image: './src/assets/chowein.webp', description: 'Savory stir-fried noodles, vegetables, and protein, rich umami flavors.' },
-        { name: 'Burger', image: './src/assets/burger.avif', description: 'Juicy beef patty, fresh veggies, melted cheese, toasted bun, flavorful delight.' },
-        { name: 'Pizza', image: './src/assets/pizza.jpg', description: 'Cheesy, crispy crust, rich tomato sauce, savory toppings, oven-baked perfection.' },
-        { name: 'Roll', image: './src/assets/rool.jpg', description: 'Soft wrap, spiced chicken, fresh veggies, tangy sauces, delicious handheld snack.' },
+        { name: 'Chowmein', image: './assets/chowein.webp', description: 'Savory stir-fried noodles, vegetables, and protein, rich umami flavors.' },
+        { name: 'Burger', image: './assets/burger.avif', description: 'Juicy beef patty, fresh veggies, melted cheese, toasted bun, flavorful delight.' },
+        { name: 'Pizza', image: './assets/pizza.jpg', description: 'Cheesy, crispy crust, rich tomato sauce, savory toppings, oven-baked perfection.' },
+        { name: 'Roll', image: './assets/rool.jpg', description: 'Soft wrap, spiced chicken, fresh veggies, tangy sauces, delicious handheld snack.' },
       ].map((item, index) => (
         <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
